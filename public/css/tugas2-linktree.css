@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+}
+
+button {
+    border: none;
+}
+
+.rendy-background {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, #114018, #5f7c4d);
+}
+
+.rendy-container-titik-tiga {
+    padding-top: 34px;
+    width: 40%;
+    margin: auto;
+}
+
+.rendy-titik-tiga {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: #f0f0f0;
+    padding-top: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+.rendy-titik-tiga img {
+    width: 60%;
+}
+
+.rendy-title-container {
+    margin-top: 55px;
+}
+
+.rendy-title-img {
+    margin: auto;
+    width: fit-content;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #264c1b;
+}
+
+.rendy-title-img img {
+    width: 128px;
+}
+
+.rendy-title-text {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.rendy-title-text p {
+    width: fit-content;
+    margin: auto;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+
+.rendy-list {
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.rendy-list button {
+    border-radius: 50px;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    border: 3px white solid;
+    transition: all 200ms;
+}
+
+.rendy-list button:hover {
+    background: transparent;
+}
+
+.rendy-icon-list {
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    top: 8px;
+    left: 10px;
+}
+
+.rendy-other-button-list {
+    position: absolute;
+    height: 30%;
+    padding: 15px;
+    border-radius: 50%;
+    top: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: all 200ms;
+}
+
+.rendy-list button:hover .rendy-other-button-list {
+    opacity: 100;
+}
+
+.rendy-other-button-list:hover {
+    background-color: #284d1e;
+    padding: 15px;
+    border-radius: 50%;
+    top: 15px;
+    right: 15px;
+}
+
+.rendy-list button p {
+    display: inline-block;
+    font-size: 20px;
+    width: 770px;
+    font-weight: 600;
+    color: rgb(156, 156, 156);
+    letter-spacing: 1px;
+}
+
+.rendy-list button:hover p {
+    color: white;
+}
+
+.rendy-footer {
+    height: 9%;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.rendy-container-linktree {
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.rendy-button-linktree {
+    text-decoration: none;
+    color: black;
+}
+
+.rendy-button-linktree img {
+    width: 120px;
+}
+
+.rendy-container-cookie {
+    position: absolute;
+    width: fit-content;
+    bottom: 11px;
+    left: 26px;
+}
+
+.rendy-button-cookie {
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.rendy-button-cookie p {
+    font-size: 12px;
+}
+
+.rendy-button-cookie:hover {
+    opacity: 100%;
+}
