@@ -13,5 +13,7 @@
         Umur: {{$umur}}
     </p>
 
+    <h4>Testing Show jam</h4><br>
+<a href="/showjam/{{date('G:i:s')}}">Klik Disini</a>
 </body>
 </html>
