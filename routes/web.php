@@ -69,4 +69,7 @@ Route::get('pegawai/edit/{id}', 'App\Http\Controllers\DosenController@edit');
 Route::post('pegawai/update', 'App\Http\Controllers\DosenController@update');
 Route::get('pegawai/hapus/{id}', 'App\Http\Controllers\DosenController@hapus');
 
+// Route::get('/pegawai','PegawaiController@index');
+Route::get('/pegawai/cari','App\Http\Controllers\DosenController@cari');
+
 
