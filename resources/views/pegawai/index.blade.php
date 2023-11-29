@@ -1,9 +1,8 @@
 
- @extends('master')
+ @extends('pegawai/master')
  @section('title','Data Pegawai')
  @section('konten')
-	<h2>www.malasngoding.com</h2>
-	<h3>Data Pegawai</h3>
+	
 	<br>
 
 
@@ -22,19 +21,21 @@
  
 	<table border="1">
 		<tr class=" text-center">
-			<th>Nama</th>
-			<th>Jabatan</th>
-			<th>Umur</th>
-			<th>Alamat</th>
-			<th>Opsi</th>
+			<th class="p-2">Nama</th>
+			<th class="p-2">Jabatan</th>
+			<th class="p-2">Umur</th>
+			<th class="p-2">Alamat</th>
+			<th class="p-2">Opsi</th>
 		</tr>
 		@foreach($pegawai as $p)
 		<tr>
-			<td>{{ $p->pegawai_nama }}</td>
-			<td>{{ $p->pegawai_jabatan }}</td>
-			<td>{{ $p->pegawai_umur }}</td>
-			<td>{{ $p->pegawai_alamat }}</td>
+			<td class="p-2">{{ $p->pegawai_nama }}</td>
+			<td class="p-2">{{ $p->pegawai_jabatan }}</td>
+			<td class="p-2">{{ $p->pegawai_umur }}</td>
+			<td class="p-2">{{ $p->pegawai_alamat }}</td>
 			<td>
+				<a href="/pegawai/view/{{ $p->pegawai_id }}" class="btn btn-success m-2">View</a>
+				|
 				<a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-warning m-2">Edit</a>
 				|
 				<a href="/pegawai/hapus/{{ $p->pegawai_id }}" class="btn btn-danger m-2">Hapus</a>

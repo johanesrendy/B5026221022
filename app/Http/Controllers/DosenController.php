@@ -19,7 +19,7 @@ class DosenController extends Controller
     	$nama = "Diki Alfarabi Hadi";
         $alamat = "Surabaya";
         $umur = 18;
-        return view('biodata',['nama'=>$nama,'alamat'=>$alamat,'umur'=>$umur]);
+        return view('pegawai/biodata',['nama'=>$nama,'alamat'=>$alamat,'umur'=>$umur]);
     }
 
     public function showjam($jam){
@@ -30,7 +30,7 @@ class DosenController extends Controller
 
     public function formulir(){
  
-    	return view('formulir');
+    	return view('pegawai/formulir');
  
     }
 
@@ -49,7 +49,7 @@ public function DB()
 		->orderByRaw('pegawai_nama ASC')
 		->paginate(10);
     	// mengirim data pegawai ke view index
-    	return view('index',['pegawai' => $pegawai]);
+    	return view('pegawai/index',['pegawai' => $pegawai]);
  
     }
 
@@ -58,7 +58,7 @@ public function tambah()
 {
  
 	// memanggil view tambah
-	return view('tambah');
+	return view('pegawai/tambah');
  
 }
 
@@ -83,7 +83,7 @@ public function edit($id)
 	// mengambil data pegawai berdasarkan id yang dipilih
 	$pegawai = DB::table('pegawai')->where('pegawai_id',$id)->get();
 	// passing data pegawai yang didapat ke view edit.blade.php
-	return view('edit',['pegawai' => $pegawai]);
+	return view('pegawai/edit',['pegawai' => $pegawai]);
  
 }
 
@@ -118,15 +118,25 @@ public function cari(Request $request)
     		// mengambil data dari table pegawai sesuai pencarian data
 		$pegawai = DB::table('pegawai')
 		->where('pegawai_nama','like',"%".$cari."%")
+		->orderByRaw('pegawai_nama ASC')
 		->paginate();
  
     		// mengirim data pegawai ke view index
-		return view('index',['pegawai' => $pegawai, 'cari' => $cari]);
+		return view('pegawai/index',['pegawai' => $pegawai, 'cari' => $cari]);
  
 	}
-
-
-
-
+// method untuk edit data pegawai
+public function view($id)
+{
+	// mengambil data pegawai berdasarkan id yang dipilih
+	$pegawai = DB::table('pegawai')->where('pegawai_id',$id)->get();
+	// passing data pegawai yang didapat ke view edit.blade.php
+	return view('pegawai/view',['pegawai' => $pegawai]);
+ 
+}
 
 }
+
+
+
+

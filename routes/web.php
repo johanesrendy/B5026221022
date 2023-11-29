@@ -71,5 +71,6 @@ Route::get('pegawai/hapus/{id}', 'App\Http\Controllers\DosenController@hapus');
 
 // Route::get('/pegawai','PegawaiController@index');
 Route::get('/pegawai/cari','App\Http\Controllers\DosenController@cari');
+Route::get('pegawai/view/{id}', 'App\Http\Controllers\DosenController@view');
 
 

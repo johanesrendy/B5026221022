@@ -713,19 +713,37 @@
                 </div>
               </div>
             </div>
-            <div class="row gap-3">
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/tugas1">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Tugas 1</h4>
+            <div class="row gap">
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/pegawai">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas Pegawai</h4>
+                      </div>
                     </div>
-                  </div>
+  
+                  </a>
+                </div>
 
-                </a>
               </div>
-              <div class="col btn btn-primary rounded-md">
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/tugas1">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas 1</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
                 <a target="_blank" href="/tugas2">
                   <div class=" ratio ratio-21x9 w-100">
                     <div class="d-flex align-items-center justify-content-center text-white">
@@ -735,119 +753,124 @@
                   </div>
 
                 </a>
-              </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank"  href="https://drive.google.com/file/d/1sm_ZsMuBlerP76-6Sd2WghjBbU78-pFR/view?usp=drive_link">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Tugas 3</h4>
+              </div></div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank"  href="https://drive.google.com/file/d/1sm_ZsMuBlerP76-6Sd2WghjBbU78-pFR/view?usp=drive_link">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas 3</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              
-            </div>
-            <div class="row gap-3 mt-3">
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/html1">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 1</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/html1">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 1</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/html2">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 2</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/html2">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 2</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank"  href="/html3">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 3</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank"  href="/html3">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 3</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              
-            </div>
-            <div class="row gap-3 mt-3">
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/html4">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 4</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/html4">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 4</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/bootstrap">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 5</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/bootstrap">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 5</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank"  href="/javascript1">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 6</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank"  href="/javascript1">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 6</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              
-            </div>
-            <div class="row gap-3 mt-3">
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/javascript2">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 7</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/javascript2">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 7</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col btn btn-primary rounded-md">
-                <a target="_blank" href="/form-validate">
-                  <div class=" ratio ratio-21x9 w-100">
-                    <div class="d-flex align-items-center justify-content-center text-white">
-
-                      <h4>Materi 8</h4>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/form-validate">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 8</h4>
+                      </div>
                     </div>
-                  </div>
-
-                </a>
+  
+                  </a>
+                </div>
               </div>
-              <div class="col ">
-                
-              </div>
-              
             </div>
           </div>
         </section>
