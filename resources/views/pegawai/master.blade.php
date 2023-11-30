@@ -11,35 +11,35 @@
   <link rel="stylesheet" href="{{asset('/css/pegawai.css')}}" />
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="/pegawai">022</a>
 
-  <!-- Links -->
-  <ul class="navbar-nav">
-    
-    <li class="nav-item">
-      <a class="nav-link" href="/">ETS</a>
-    </li>
-    <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Tugas
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="/tugas1">Tugas 1</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/pegawai">022</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       
+        <li class="nav-item">
+          <a class="nav-link" href="/">ETS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tugas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/tugas1">Tugas 1</a>
         <a class="dropdown-item" href="/tugas2">Tugas 2</a>
         <a class="dropdown-item" href="https://drive.google.com/file/d/1sm_ZsMuBlerP76-6Sd2WghjBbU78-pFR/view?usp=drive_link">Tugas 3</a>
-      </div>
-    </li>
-
-     <!-- Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Materi
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="/html1">Materi 1</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Materi
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/html1">Materi 1</a>
         <a class="dropdown-item" href="/html2">Materi 2</a>
         <a class="dropdown-item" href="/html3">Materi 3</a>
         <a class="dropdown-item" href="/html4">Materi 4</a>
@@ -47,10 +47,12 @@
         <a class="dropdown-item" href="/javascript1">Materi 6</a>
         <a class="dropdown-item" href="/javascript2">Materi 7</a>
         <a class="dropdown-item" href="/form-validate">Materi 8</a>
-      </div>
-    </li>
-  </ul>
-</nav>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
 <br>
   
 <div class="container">

@@ -9,47 +9,51 @@
   
     <div class="col-md-5">
         <div class="d-flex align-items-center justify-content-center h-100">
-            <div style="
-            height: 600px;
-    width: 400px;
-    background-image: url('/assets/images/pegawai/blank-profile-picture.png');
-    border: solid 2px black;
-            "></div>
+            <img src="/assets/images/pegawai/blank-profile-picture.png" class="border border-dark img-fluid" style="height: 600px; width: 400px;">
         </div>
     </div>
     <div class="col-md">
         <div class="d-flex align-items-center h-100">
             <div class="w-100">
+                <div class="mt-5 d-block d-md-none"></div>
                 <div class="row ">
-                    <div class="col-md-3 ">
-                        <h2>Nama</h2>
+                    <div class="col-3 ">
+                        <h2 class="d-none d-md-block">Nama</h2>
+                        <h5 class="d-block d-md-none">Nama</h5>
                     </div>
-                    <div class="col-md">
-                        <h2>: {{$p->pegawai_nama }}</h2>
+                    <div class="col">
+                        <h2 class="d-none d-md-block">: {{$p->pegawai_nama }}</h2>
+                        <h5 class="d-block d-md-none">: {{$p->pegawai_nama }}</h5>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-md-3 ">
-                        <h2>Jabatan</h2>
+                    <div class="col-3 ">
+                        <h2 class="d-none d-md-block">Jabatan</h2>
+                        <h5 class="d-block d-md-none">Jabatan</h5>
                     </div>
-                    <div class="col-md">
-                        <h2>: {{$p->pegawai_jabatan }}</h2>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col-md-3 ">
-                        <h2>Umur</h2>
-                    </div>
-                    <div class="col-md">
-                        <h2>: {{$p->pegawai_umur }}</h2>
+                    <div class="col">
+                        <h2 class="d-none d-md-block">: {{$p->pegawai_jabatan }}</h2>
+                        <h5 class="d-block d-md-none">: {{$p->pegawai_jabatan }}</h5>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-md-3 ">
-                        <h2>Alamat</h2>
+                    <div class="col-3 ">
+                        <h2 class="d-none d-md-block">Umur</h2>
+                        <h5 class="d-block d-md-none">Umur</h5>
                     </div>
-                    <div class="col-md">
-                        <h2>: {{$p->pegawai_alamat }}</h2>
+                    <div class="col">
+                        <h2 class="d-none d-md-block">: {{$p->pegawai_umur }}</h2>
+                        <h5 class="d-block d-md-none">: {{$p->pegawai_umur }}</h5>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-3 ">
+                        <h2 class="d-none d-md-block">Alamat</h2>
+                        <h5 class="d-block d-md-">Alamat</h5>
+                    </div>
+                    <div class="col">
+                        <h2 class="d-none d-md-block">: {{$p->pegawai_alamat }}</h2>
+                        <h5 class="d-block d-md-none">: {{$p->pegawai_alamat }}</h5>
                     </div>
                 </div>
                 <div class="row mt-5">
