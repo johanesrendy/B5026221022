@@ -49,7 +49,7 @@
                 <div class="row ">
                     <div class="col-3 ">
                         <h2 class="d-none d-md-block">Alamat</h2>
-                        <h5 class="d-block d-md-">Alamat</h5>
+                        <h5 class="d-block d-md-none">Alamat</h5>
                     </div>
                     <div class="col">
                         <h2 class="d-none d-md-block">: {{$p->pegawai_alamat }}</h2>
