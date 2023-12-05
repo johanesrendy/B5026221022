@@ -2,6 +2,7 @@
 @section('title','Data Pegawai')
 @section('konten')
 
+
 <a href="/pegawai"> Kembali</a>
 	
 @foreach($pegawai as $p)
@@ -58,7 +59,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-3">
-                        <a href="/pegawai/edit/{{$p->pegawai_id }}" class="btn btn-warning w-100">Edit</a>
+                        <a href="/pegawai" class="btn btn-success w-100">Oke</a>
                     </div>
                    
 

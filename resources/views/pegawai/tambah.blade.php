@@ -1,6 +1,7 @@
 @extends('pegawai/master')
 @section('title','Data Pegawai')
 @section('konten')
+
 	
 	
 <a href="/pegawai"> Kembali</a>

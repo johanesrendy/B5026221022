@@ -64,12 +64,11 @@
 <br>
   
 <div class="container">
-  <h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Data Pegawai</h3>
+	<h3>Data Keyboard</h3>
   @yield('konten')
 </div>
 
-@include('pegawai/footer')
+@include('keyboard/footer')
 <br>
 </body>
 </html>

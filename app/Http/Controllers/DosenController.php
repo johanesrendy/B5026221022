@@ -24,7 +24,7 @@ class DosenController extends Controller
 
     public function showjam($jam){
  
-    	return "<h2>Sekarang Jam: " . $jam ."</h2>";
+    	return "<h2>Sekarang Jam: " . $jam ."</h2><br><p>silahkan ubah angka url diatas untuk merubah angka jam</p>";
  
     }
 

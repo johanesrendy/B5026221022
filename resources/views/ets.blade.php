@@ -716,6 +716,48 @@
             <div class="row gap">
               <div class="col-4 p-1">
                 <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/keyboard">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas Keyboard</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/keranjangbelanja">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas Keranjang Belanja</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/nilai">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas Nilai Kuliah</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
                   <a target="_blank" href="/pegawai">
                     <div class=" ratio ratio-21x9 w-100">
                       <div class="d-flex align-items-center justify-content-center text-white">
@@ -865,6 +907,58 @@
                       <div class="d-flex align-items-center justify-content-center text-white">
   
                         <h4>Materi 8</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/perkalian">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 9</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/biodata">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 10</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/showjam/220">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 11</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 p-1">
+                <div class="w-100 btn btn-primary rounded-md">
+                  <a target="_blank" href="/formulir">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Materi 12</h4>
                       </div>
                     </div>
   
