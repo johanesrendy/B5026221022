@@ -23,23 +23,23 @@ class ChatController extends Controller
                 switch($word){
                     case ":))":
                         $imagePath = "/assets/images/eas/1.png";
-                        $modifiedWords[] = "<img src='$imagePath' alt=':))' style=' width: 20px; height: 20px;' />";
+                        $modifiedWords[] = "<img src='$imagePath' alt=':))' class='emote' />";
                         break;
                     case ":3":
                         $imagePath = "/assets/images/eas/2.png";
-                        $modifiedWords[] = "<img src='$imagePath' alt=':3' style=' width: 20px; height: 20px;' />";
+                        $modifiedWords[] = "<img src='$imagePath' alt=':3' class='emote'/>";
                         break;
                     case ":P":
                         $imagePath = "/assets/images/eas/3.png";
-                        $modifiedWords[] = "<img src='$imagePath' alt=':P' style=' width: 20px; height: 20px;' />";
+                        $modifiedWords[] = "<img src='$imagePath' alt=':P' class='emote'/>";
                         break;
                     case ":C":
                         $imagePath = "/assets/images/eas/4.png";
-                        $modifiedWords[] = "<img src='$imagePath' alt=':C' style=' width: 20px; height: 20px;' />";
+                        $modifiedWords[] = "<img src='$imagePath' alt=':C' class='emote'/>";
                         break;
                     case ";)":
                         $imagePath = "/assets/images/eas/5.png";
-                        $modifiedWords[] = "<img src='$imagePath' alt=';)' style=' width: 20px; height: 20px;' />";
+                        $modifiedWords[] = "<img src='$imagePath' alt=';)' class='emote'/>";
                         break;
                     default:
                         $modifiedWords[] = $word;
