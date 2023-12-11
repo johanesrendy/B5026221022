@@ -716,6 +716,20 @@
             <div class="row gap">
               <div class="col-4 p-1">
                 <div class="btn btn-primary rounded-md w-100">
+                  <a target="_blank" href="/chat">
+                    <div class=" ratio ratio-21x9 w-100">
+                      <div class="d-flex align-items-center justify-content-center text-white">
+  
+                        <h4>Tugas Chat</h4>
+                      </div>
+                    </div>
+  
+                  </a>
+                </div>
+
+              </div>
+              <div class="col-4 p-1">
+                <div class="btn btn-primary rounded-md w-100">
                   <a target="_blank" href="/keyboard">
                     <div class=" ratio ratio-21x9 w-100">
                       <div class="d-flex align-items-center justify-content-center text-white">

@@ -95,4 +95,7 @@ Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@be
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangController@batal');
 
+//CHAT
+Route::get('/chat','App\Http\Controllers\ChatController@index');
+
 
